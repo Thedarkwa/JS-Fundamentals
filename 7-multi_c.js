@@ -10,7 +10,3 @@ if (isNaN(x)) {
   while (i < x) {
     output += "C is fun\n";
     i++;
-  }
-  console.log(output.trim()); // prints nothing if x <= 0
-  console.log(""); // 2nd console.log
-}
