@@ -1,5 +1,4 @@
-// Simulated arguments array
-const args = []; // Change this to test different cases
+const args = process.argv.slice(2); // Skip 'node' and filename
 
 if (args.length === 0) {
   console.log("No argument");
